@@ -1,0 +1,12 @@
+/* front of card */
+.flipped .front {
+  transform: rotateY(0deg);
+  transition-delay: 0.2s;
+  display: block;
+}
+
+/* back of card */
+.flipped .back {
+  transform: rotateY(90deg);
+  transition-delay: 0s;
+}
